@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[
+    {
+        "id": 66609995,
+        "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCmq4fGYb1sdNS04JWz5Uh3gVXGTzCH6T+5geNAAd6Y9efSUsw7DPLEo/d7vzJwr9Z4TVtSGAflcwieZHDYkKNxbK3SpaxoLHqnqPCkbx5KQYSeGBYTs/exht50NHQPKkjjatR+3mFAhvvzYQoyaquzx9n6pZWiuqdjjvxxC8c3iW/ZxlFdd1XHE4U8My4qiEc8iTqY680AgOyG8V8YCtR2pK1Jclr7ASMWeIyxhgfBH2Cb5RVK19irCvWkypPwtOg44OS7+IhmTYBuswQCktPxOtErR8IKWV+goW2/yjYM4J5UwoLGru/OCsvuG3BqN9pQnn8wj7Ar1gpAUI9MXhTV67kPtsXcdnM7Wb5VWf8+ayc9SLibpE3WTm70IKJpR2TqiIQOWDKUwpVyGrwHD4xaaAAFXdAgVk5VYSs44VPWllGN9dYyGZDHBjzGYjepT2xOSFHQqi4p+gjkmN7UWl2RPUK1Ag7hDX3nfy8EyrQtVHv3Zew0cS33Ghv1ZC09Hms=",
+        "url": "https://api.github.com/user/keys/66609995",
+        "title": "TestAPIKey",
+        "verified": true,
+        "created_at": "2022-05-25T10:59:52Z",
+        "read_only": false
+    }
+]]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-25T16:29:49 IST" name="Default Suite" finished-at="2022-05-25T16:29:54 IST" duration-ms="5011">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T16:29:49 IST" name="GitHub_RestAssured_Project" finished-at="2022-05-25T16:29:54 IST" duration-ms="5011">
+      <class name="ProjectTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ProjectTest@3a52dba3]" started-at="2022-05-25T16:29:49 IST" name="setUp" finished-at="2022-05-25T16:29:50 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postApiRequest()[pri:1, instance:ProjectTest@3a52dba3]" started-at="2022-05-25T16:29:50 IST" name="postApiRequest" finished-at="2022-05-25T16:29:53 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApiRequest -->
+        <test-method signature="getSshKeyRequest()[pri:2, instance:ProjectTest@3a52dba3]" started-at="2022-05-25T16:29:53 IST" name="getSshKeyRequest" finished-at="2022-05-25T16:29:53 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[
+    {
+        "id": 66609995,
+        "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCmq4fGYb1sdNS04JWz5Uh3gVXGTzCH6T+5geNAAd6Y9efSUsw7DPLEo/d7vzJwr9Z4TVtSGAflcwieZHDYkKNxbK3SpaxoLHqnqPCkbx5KQYSeGBYTs/exht50NHQPKkjjatR+3mFAhvvzYQoyaquzx9n6pZWiuqdjjvxxC8c3iW/ZxlFdd1XHE4U8My4qiEc8iTqY680AgOyG8V8YCtR2pK1Jclr7ASMWeIyxhgfBH2Cb5RVK19irCvWkypPwtOg44OS7+IhmTYBuswQCktPxOtErR8IKWV+goW2/yjYM4J5UwoLGru/OCsvuG3BqN9pQnn8wj7Ar1gpAUI9MXhTV67kPtsXcdnM7Wb5VWf8+ayc9SLibpE3WTm70IKJpR2TqiIQOWDKUwpVyGrwHD4xaaAAFXdAgVk5VYSs44VPWllGN9dYyGZDHBjzGYjepT2xOSFHQqi4p+gjkmN7UWl2RPUK1Ag7hDX3nfy8EyrQtVHv3Zew0cS33Ghv1ZC09Hms=",
+        "url": "https://api.github.com/user/keys/66609995",
+        "title": "TestAPIKey",
+        "verified": true,
+        "created_at": "2022-05-25T10:59:52Z",
+        "read_only": false
+    }
+]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSshKeyRequest -->
+        <test-method signature="DeleteKeyRequest()[pri:3, instance:ProjectTest@3a52dba3]" started-at="2022-05-25T16:29:53 IST" name="DeleteKeyRequest" finished-at="2022-05-25T16:29:54 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteKeyRequest -->
+      </class> <!-- ProjectTest -->
+    </test> <!-- GitHub_RestAssured_Project -->
+  </suite> <!-- Default Suite -->
+</testng-results>
